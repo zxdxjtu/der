@@ -1,0 +1,39 @@
+[package]
+name = "der"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+byteorder = "1.5"
+thiserror = "1.0"
+anyhow = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+
+[dev-dependencies]
+tempfile = "3.8"
+
+[[bin]]
+name = "der"
+path = "src/main.rs"
+
+[[example]]
+name = "hello_world"
+path = "examples/hello_world.rs"
+
+[[example]]
+name = "bubble_sort"
+path = "examples/bubble_sort.rs"
+
+[[example]]
+name = "demo"
+path = "examples/demo.rs"
+
+[[example]]
+name = "comprehensive_demo"
+path = "examples/comprehensive_demo.rs"
+
+[[example]]
+name = "semantic_demo"
+path = "examples/semantic_demo.rs"

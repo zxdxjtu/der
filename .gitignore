@@ -1,0 +1,46 @@
+# Compiled binary output
+/target/
+Cargo.lock
+
+# Generated DER program files
+*.der
+*.ders
+*.dot
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables and secrets
+.env
+.env.local
+.env.production
+.env.test
+*.key
+*.pem
+*.p12
+*.p8
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Test output
+test_output/
+
+# Documentation build output
+docs/_build/
+site/
+
+# Coverage reports
+coverage/
+*.prof
+*.cov
