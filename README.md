@@ -85,6 +85,36 @@ let mut executor = Executor::new(program);
 let result = executor.execute()?;
 ```
 
+## Future: AI-Native Documentation
+
+DER's binary computational graphs represent just the beginning of AI-native software development. We envision a future where DER programs are accompanied by **AI-native description files** that provide comprehensive context about each binary program.
+
+### Context Engineering Integration
+
+Drawing inspiration from [context-engineering methodologies](https://github.com/zxdxjtu/context-engineering-intro/tree/main), these description files would include:
+
+- **Purpose & Intent**: Precise natural language description of what the program does
+- **Input/Output Contracts**: Formal specifications of expected inputs and guaranteed outputs  
+- **Verification Methods**: Embedded formal verification proofs and testing strategies
+- **Usage Context**: When, where, and how the program should be used
+- **Safety Guarantees**: Computational complexity bounds and resource usage constraints
+
+### Open Design Question
+
+The exact implementation approach remains an active area of research:
+
+**Option A: Language-Integrated**
+- Description files as part of the DER language specification
+- Native support in the compiler and runtime
+- Tight coupling with binary format and execution model
+
+**Option B: Language-Agnostic Contract**
+- Description files as universal context-engineering contracts
+- Could apply to any programming language or binary format
+- Standardized interface for AI systems to understand and manipulate code
+
+This design choice will significantly impact how AI systems interact with code in the future, and we welcome community input on this fundamental architectural decision.
+
 ## Vision
 
 DER represents a fundamental shift in programming where:
