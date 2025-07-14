@@ -1,5 +1,7 @@
 # DER: Dynamic Execution Representation
 
+> **DER: Prompt as src, Code as bin**
+
 DER is a revolutionary programming paradigm designed specifically for AI as the primary coder, with humans serving as architects who define intent and view results through visualization tools.
 
 ## Core Philosophy
